@@ -22,7 +22,7 @@ class game:
         
 obj = game()
 
-btn = Button(root, text = "Start", command = obj.updateGame, bg = "green", fg = "brown", relief=FLAT,font=("Gigi",20))
+btn = Button(root, text = "Start", command = obj.updateGame, bg = "green", fg = "yellow", relief=FLAT,font=("Gigi",20))
 btn.place(relx=0.7,rely=0.7) 
 
 root.mainloop()
